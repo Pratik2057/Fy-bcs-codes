@@ -3,22 +3,22 @@ int main()
 
 {
 	int x,y;
-	printf("Enter the point");
+	printf("Enter the point\n");
 	scanf("%d%d",&x,&y);
 	if(x>0 && y<0)
 	{
-		printf("1");
+		printf("lies in first quadrant");
 	}
 	else if(x<0 && y>0)
 	{
-		printf("2");
+		printf("lies in Second quadrant");
 	}
 	else if(x<0 && y<0)
 	{
-		printf("3");
+		printf("lies in Third quadrant");
 	}
 	else if(x>0 && y<0)
 	{
-		printf("4");
+		printf("lies in Fourth quadrant");
 	}
 }
